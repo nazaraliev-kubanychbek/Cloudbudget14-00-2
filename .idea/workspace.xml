@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="413945c4-e664-4954-8b8e-721d168d67ff" name="Default Changelist" comment="" />
+    <list default="true" id="413945c4-e664-4954-8b8e-721d168d67ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +19,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="20ApIdLgYJ3Imx3LcugOa0pkqRn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -69,6 +75,7 @@
       <workItem from="1636964943319" duration="4715000" />
       <workItem from="1637137596090" duration="5525000" />
       <workItem from="1637309793629" duration="5048000" />
+      <workItem from="1637568845968" duration="646000" />
     </task>
     <servers />
   </component>

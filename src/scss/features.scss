@@ -1,0 +1,59 @@
+.features {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 70px;
+  background: $primewhite;
+
+  &__title {
+    margin-top: -150px;
+    @include font(36px, 43px);
+    font-weight: 600;
+    text-align: center;
+  }
+
+  &__content {
+    position: relative;
+  }
+
+  &__card {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFFFFF;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 33px 0 25px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+
+    &-title {
+      @include font(18px, 22px);
+      font-weight: bold;
+      text-align: center;
+      color: $primeblack;
+      width: 235px;
+    }
+
+    &-text {
+      @include font(12px, 150%);
+      font-weight: normal;
+      text-align: center;
+      color: $primeblack;
+      width: 235px;
+    }
+
+    &-link {
+      @include font(12px, 150%);
+      font-weight: bold;
+      text-align: center;
+      color: $primered;
+      text-decoration: none;
+    }
+  }
+}

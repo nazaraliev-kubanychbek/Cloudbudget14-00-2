@@ -1,0 +1,55 @@
+.overview {
+  &__content {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 50px;
+
+    &-title {
+      @include font(36px, 43px);
+      font-weight: 600;
+    }
+
+    &-text {
+      @include font(14px, 140%);
+      font-weight: normal;
+      width: 455px;
+    }
+
+    &-link {
+      @include font(14px, 140%);
+      font-weight: normal;
+      color: $primered;
+      text-decoration: none;
+    }
+  }
+
+  &__video {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    &-circle {
+      display: flex;
+      width: 66px;
+      height: 66px;
+      background-color: $primered;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      text-decoration: none;
+      transition: all .5s;
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+}

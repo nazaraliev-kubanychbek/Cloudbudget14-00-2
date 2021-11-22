@@ -1,0 +1,53 @@
+.footer{
+  height: 435px;
+  display: flex;
+  align-items: center;
+  background-color: $primewhite;
+  &__title{
+    @include font(18px, 22px);
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: $primeblack;
+  }
+  &__text{
+    @include font(12px, 150%);
+    font-weight: normal;
+    color: $primeblack;
+    width: 200px;
+  }
+  &__menu{
+
+    &-link{
+      @include font(12px, 160%);
+      font-weight: normal;
+      color: $primeblack;
+    }
+  }
+  &__box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+  &__link{
+    color: $primeblack;
+    text-decoration: none;
+  }
+  &__copy{
+    @include font(12px, 14px);
+    font-weight: normal;
+    margin-top: 100px;
+  }
+  &__icons{
+    display: flex;
+    column-gap: 10px;
+    a{
+      color: $primeblack;
+      transition: all .5s;
+      &:hover{
+        color: $primered;
+        transform: scale(1.5);
+      }
+    }
+  }
+
+}
